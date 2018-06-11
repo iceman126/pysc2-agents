@@ -26,6 +26,7 @@ Run a agent in MoveToBeacon mini-game with 1e-4 learning rate.
 
 ##  Performance
 **Best mean scores:**
+
 |  |Ours|DeepMind|
 |--|--|--|
 |MoveToBeacon|25|26|
