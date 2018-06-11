@@ -165,7 +165,7 @@ class Agent(object):
             screen, minimap, ns, available_actions = obs["screen"], obs["minimap"], obs["ns"], info["available_actions"]
             states = None
             while True:
-                action, arg, value, state = self.step_policy(screen, minimap, ns, states, available_actions=available_actions)
+                action, arg, value, state = self.step_func(screen, minimap, ns, states, available_actions=available_actions)
                 obs, info = self.env.step(action, arg)
                 episode_reward = [sum(x) for x in zip(episode_reward, info["reward"])]
                 screen, minimap, ns, available_actions = obs["screen"], obs["minimap"], obs["ns"], info["available_actions"]
