@@ -30,4 +30,4 @@ Run a agent in MoveToBeacon mini-game with 1e-4 learning rate.
 |--|--|--|
 |MoveToBeacon|25|26|
 |DefeatRoaches|91|101|
-|CollectMineralShards||104
+|CollectMineralShards||104|
